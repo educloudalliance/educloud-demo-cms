@@ -1,24 +1,14 @@
-# README
+## Quick start
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Populate the .env.development file :
 
-Things you may want to cover:
+        BAZAAR_API_URL=https://bazaar.samposoftware.com/api/v1
+        TEST_LMS_URL=https://sample.idp.com
 
-* Ruby version
+2. Start the web server:
 
-* System dependencies
+        $ rails server
 
-* Configuration
+   Run with `--help` or `-h` for options.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+3. Using a browser, go to `http://localhost:3000`
