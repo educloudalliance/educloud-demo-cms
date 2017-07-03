@@ -12,9 +12,8 @@ gem 'sqlite3'
 # Use Puma as the app server
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'dotenv-rails'
-gem 'httparty', '~> 0.15.5'
-gem 'oauth2', '~> 1.4'
 gem 'puma', '~> 3.7'
+gem 'rest-client', '~> 2.0', '>= 2.0.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
