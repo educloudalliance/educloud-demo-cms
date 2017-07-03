@@ -1,7 +1,7 @@
 class CmsController < ApplicationController
   def show
-    @response = HTTParty.get("#{ENV['BAZAAR_API_URL']}/cms/validate",
-      query: { token: params[:token], access_token: params[:access_token] })
+    @response = RestClient.get("#{ENV['BAZAAR_API_URL']}/cms/validate",
+      params: { token: params[:token], access_token: params[:access_token] })
   end
 
   private
